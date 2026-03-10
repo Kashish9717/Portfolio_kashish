@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import Profile from "../assets/Profile.jpg";
+
 
 function About() {
   return (
@@ -185,7 +185,7 @@ function About() {
           {/* ---------------- BUTTON ---------------- */}
 
           <motion.a
-            href="/KashishResume.pdf"
+            href="/Portfolio_kashish/KashishResume.pdf"   //after deploy 
             target="_blank"
             rel="noopener noreferrer"
 

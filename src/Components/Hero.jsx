@@ -8,7 +8,7 @@ import { Typewriter } from "react-simple-typewriter";
 import Particles from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
 
-import Profile from "../assets/Profile.jpg";
+// import Profile from "../assets/Profile.jpg";
 
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
@@ -166,7 +166,7 @@ to strengthen my problem-solving skills and become a full-stack developer.
 {/* -------- DOWNLOAD CV BUTTON (TOP FLY ANIMATION) -------- */}
 
 <motion.a
-href="/KashishResume.pdf"
+href="/Portfolio_kashish/KashishResume.pdf"  //REpo name
 target="_blank"
 rel="noopener noreferrer"
 
