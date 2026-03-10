@@ -1,0 +1,1 @@
+//Install : npm install framer-motion react-icons , Tailwind css , npm i aos , npm i lucide-react

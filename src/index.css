@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+/* horizontal scroll ko completely remove karega */
+html, body{
+overflow-x: hidden;
+width: 100%;
+}
