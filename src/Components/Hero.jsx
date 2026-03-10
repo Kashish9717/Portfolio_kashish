@@ -8,7 +8,7 @@ import { Typewriter } from "react-simple-typewriter";
 import Particles from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
 
-// import Profile from "../assets/Profile.jpg";
+import Profile from "../assets/Profile.jpg";
 
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
