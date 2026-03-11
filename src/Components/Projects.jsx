@@ -7,26 +7,32 @@ function Projects() {
     {
       title: "QR Code Scanner",
       desc: "Scan QR codes using camera with JavaScript.",
+      links: "https://kashish9717.github.io/Qr_Generator/",
     },
     {
       title: "Voice Assistant",
       desc: "Voice controlled assistant using Speech Recognition API.",
-    },
+      links: "https://kashish9717.github.io/VoiceAssistant/",
+        },
     {
       title: "Budget Calculator",
       desc: "Track income and expenses with dynamic calculations.",
+      links:"https://kashish9717.github.io/Budget_Calculator/",
     },
     {
       title: "Snake Game",
       desc: "Classic snake game built using JavaScript logic.",
+      links:"https://kashish9717.github.io/Snake_Game/",
     },
     {
       title: "Weather Checker",
       desc: "Fetch live weather data using API.",
+      links:"https://kashish9717.github.io/Weather_Dasboard/",
     },
     {
       title: "Clothing Website",
       desc: "Simple e-commerce clothing website layout.",
+      links:"https://kashish9717.github.io/Kashya_Clothing/",
     },
   ];
 
@@ -35,6 +41,7 @@ function Projects() {
     {
       title: "Bookify (Firebase)",
       desc: "Book management web app with Firebase database.",
+      links:"https://kashish9717.github.io/Bookify/",
     },
     {
       title: "Notes Store",
@@ -94,14 +101,27 @@ boxShadow:"0 0 40px #22d3ee"
 
 className="bg-slate-800 p-6 rounded-2xl cursor-pointer transition-all duration-300"
 >
-
+   {/*   PROJECT NAME   */}
 <h4 className="text-xl font-bold mb-2">
 {project.title}
 </h4>
 
+{/*    DESCRIPTION OF PROJECT */}
 <p className="text-gray-300">
 {project.desc}
 </p>
+
+
+{/*  LINKS BUTTON */}
+<a
+  href={project.links}
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <button className="mt-4 px-4 py-2 bg-cyan-500 hover:bg-cyan-600 rounded-lg">
+    View Project
+  </button>
+</a>
 
 </motion.div>
 
@@ -143,6 +163,17 @@ className="bg-slate-800 p-6 rounded-2xl cursor-pointer transition-all duration-3
 <p className="text-gray-300">
 {project.desc}
 </p>
+
+  {/*  LINKS BUTTON */}
+<a
+  href={project.links}
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <button className="mt-4 px-4 py-2 bg-cyan-500 hover:bg-cyan-600 rounded-lg">
+    View Project
+  </button>
+</a>
 
 </motion.div>
 

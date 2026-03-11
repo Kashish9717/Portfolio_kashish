@@ -7,12 +7,12 @@ import "react-circular-progressbar/dist/styles.css";
 
 const technicalSkills = [
   { name: "HTML", level: 90 },
-  { name: "CSS", level: 60 },
-  { name: "JavaScript", level: 50 },
+  { name: "CSS", level: 75 },
+  { name: "JavaScript", level: 70 },
   { name: "React", level: 60 },
-  { name: "Java", level: 70 },
-  { name: "SQL", level: 60 },
-  { name: "Firebase", level: 50 }
+  // { name: "Java", level: 50 },
+  // { name: "SQL", level: 60 },
+  { name: "Firebase", level: 60 }
 ];
 
 const professionalSkills = [
@@ -43,11 +43,11 @@ function Skills() {
         {/* ================= TECHNICAL SKILLS ================= */}
         <div className="max-w-md">
 
-          <h3 className="text-2xl font-bold underline mb-6 ml-30 drop-shadow-[0_0_10px_cyan]">
+          <h3 className="text-2xl font-bold underline mb-6 ml-30  drop-shadow-[0_0_10px_cyan]">
             Technical Skills
           </h3>
 
-          <div className="space-y-4 ml-10 w-100 mt-10 ">
+          <div className="space-y-4  w-100 mt-10 ">
 
             {technicalSkills.map((skill, index) => (
 
@@ -91,7 +91,7 @@ function Skills() {
           </h3>
 
           {/* circles grid */}
-          <div className="grid grid-cols-2 gap-8 place-items-center ">
+          <div className="grid grid-cols-2 gap-8 place-items-center mr-20">
 
             {professionalSkills.map((skill, index) => (
 
