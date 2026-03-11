@@ -47,7 +47,7 @@ function Skills() {
             Technical Skills
           </h3>
 
-          <div className="space-y-4  w-100 mt-10 ">
+          <div className="space-y-4  w-90 md:w-100 mt-10 ">
 
             {technicalSkills.map((skill, index) => (
 
@@ -91,7 +91,7 @@ function Skills() {
           </h3>
 
           {/* circles grid */}
-          <div className="grid grid-cols-2 gap-8 place-items-center mr-20">
+          <div className="grid grid-cols-2 gap-8 place-items-center mr-10">
 
             {professionalSkills.map((skill, index) => (
 

@@ -24,7 +24,7 @@ export default function Hero() {
 
 <div 
 id="home"
-className="relative w-full min-h-screen bg-slate-900 overflow-hidden pt-18"
+className=" top-15 relative w-full min-h-screen bg-slate-900 overflow-hidden pt-18 md:pt-1.5"
 >
 
 {/* pt-28 navbar ke niche hero start karne ke liye */}
@@ -266,7 +266,7 @@ animate={{opacity:1,scale:1}}
 
 transition={{duration:1}}
 
-className="flex justify-center mt-12 md:mt-13"
+className="flex justify-center mt-10 md:mt-13"
 >
 
 <motion.img

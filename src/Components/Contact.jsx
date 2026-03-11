@@ -116,7 +116,7 @@ function Contact() {
           transition={{ duration: 0.8 }}
         >
 
-          <form className="flex flex-col gap-5">
+          <form className="flex flex-col gap-5 mr-10">
 
             {/* NAME INPUT */}
             <input
