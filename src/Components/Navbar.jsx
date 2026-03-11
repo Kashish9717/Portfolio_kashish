@@ -33,7 +33,7 @@ function Navbar() {
       {/* ---------- LOGO ---------- */}
 
       <h1 className="text-xl md:text-2xl font-bold text-cyan-400 cursor-pointer">
-        Kashish.Portfolio
+        MyPortfolio
       </h1>
 
 
