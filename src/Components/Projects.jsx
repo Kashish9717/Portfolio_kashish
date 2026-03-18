@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { title } from "framer-motion/client";
 
 function Projects() {
 
@@ -46,6 +47,7 @@ function Projects() {
     {
       title: "Notes Store",
       desc: "Save and manage notes with React.",
+      links:"https://kashish9717.github.io/NoteApp/",
     },
     {
       title: "Employee Management",
@@ -55,6 +57,22 @@ function Projects() {
       title: "My Portfolio",
       desc: "Personal developer portfolio built using React and Tailwind.",
     },
+      {
+      title: "My Album",
+      desc:"A dynamic photo and video gallery web app built with React and Tailwind CSS, showcasing personal projects and creative work.",
+      links:"https://kashish9717.github.io/MyAlbum/",
+    },
+     {
+      title:"Quiz App",
+      desc:"An interactive quiz application built with React, offering multiple-choice questions, instant feedback, and score tracking for a fun and engaging learning experience.",
+      links:"https://kashish9717.github.io/QuizApp/",
+     },
+
+     {
+      title: "Clothing Layout",
+      desc:"A modern e-commerce clothing website layout built with React and Tailwind CSS, featuring responsive product galleries, category navigation, and interactive shopping experience.",
+      links:"https://kashish9717.github.io/ClothingLayout/",
+     }
   ];
 
   return (
