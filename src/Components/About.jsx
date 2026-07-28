@@ -90,33 +90,24 @@ function About() {
 
           {/* ---------------- ABOUT TEXT ---------------- */}
 
-          <p className="text-gray-300 text-lg md:text-xl">
+ <p className="text-gray-300 text-lg md:text-xl">
+  Hi, I'm
 
-            Hi, I'm
+  <motion.span
+    className="text-cyan-400 font-bold ml-2"
+    animate={{
+      textShadow: [
+        "0 0 5px #22d3ee",
+        "0 0 20px #22d3ee",
+        "0 0 5px #22d3ee",
+      ],
+    }}
+    transition={{ repeat: Infinity, duration: 2 }}
+  >
+    Kashish Saxena
+  </motion.span>
 
-            <motion.span
-              className="text-cyan-400 font-bold ml-2"
-
-              // glowing name animation
-              animate={{
-                textShadow: [
-                  "0 0 5px #22d3ee",
-                  "0 0 20px #22d3ee",
-                  "0 0 5px #22d3ee",
-                ],
-              }}
-
-              transition={{ repeat: Infinity, duration: 2 }}
-            >
-  
-              Kashish Saxena 
-
-            </motion.span>
-
-        ' passionate Frontend Developer focused on creating modern and
-  responsive web applications using React, Tailwind CSS, JavaScript,
-  and Firebase for backend services.
-
+  , a passionate <span className="text-cyan-400 font-semibold">Frontend & MERN Stack Developer</span> dedicated to building modern, responsive, and user-friendly web applications using <span className="font-medium">React, JavaScript, Tailwind CSS, Node.js, Express.js, MongoDB,</span> and REST APIs.
 </p>
 
 

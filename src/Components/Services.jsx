@@ -4,32 +4,32 @@ import { RiComputerLine, RiCodeLine, RiBrushLine, RiSmartphoneLine } from "react
 function Services() {
 
   // services data
-  const services = [
-    {
-      icon: <RiComputerLine size={40} />,
-      title: "Web Development",
-      description:
-        "Building responsive and modern websites using React, Tailwind CSS, and JavaScript.",
-    },
-    {
-      icon: <RiCodeLine size={40} />,
-      title: "AI Automation",
-      description: 
-          "Experienced in working with multiple AI tools to streamline tasks, automate processes, and integrate intelligent features into web applications.",
-    },
-    {
-      icon: <RiBrushLine size={40} />,
-      title: "UI/UX Design",
-      description:
-        "Designing clean and user-friendly interfaces for web and mobile applications.",
-    },
-    {
-      icon: <RiSmartphoneLine size={40} />,
-     title: "WordPress Development",
-description:
-  "Built and customized WordPress websites for learning and practice, exploring themes, plugins, and basic site management."
-    },
-  ];
+const services = [
+  {
+    icon: <RiComputerLine size={40} />,
+    title: "Frontend Development",
+    description:
+      "Building modern, responsive, and interactive web applications using React.js, JavaScript, Tailwind CSS, and Bootstrap.",
+  },
+  {
+    icon: <RiCodeLine size={40} />,
+    title: "MERN Stack Development",
+    description:
+      "Developing full-stack web applications with MongoDB, Express.js, React.js, and Node.js, including REST APIs, authentication, and database integration.",
+  },
+  {
+    icon: <RiBrushLine size={40} />,
+    title: "Responsive UI Development",
+    description:
+      "Creating clean, mobile-friendly, and accessible user interfaces with a focus on performance, usability, and modern design principles.",
+  },
+  {
+    icon: <RiSmartphoneLine size={40} />,
+    title: "API Integration",
+    description:
+      "Integrating REST APIs, handling asynchronous data fetching, authentication, and state management to build dynamic web applications.",
+  },
+];
 
   return (
     <section

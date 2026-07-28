@@ -123,8 +123,9 @@ className="text-xl md:text-2xl mt-4 text-cyan-400 font-semibold"
 words={[
 "Frontend Developer",
 "React Developer",
-"Java Learner",
-"Future Full Stack Developer"
+"JavaScript Developer",
+"Full Mern Stack Developer",
+"Learner-Creater-Explorer"
 ]}
 loop={true}
 cursor
@@ -148,12 +149,10 @@ visible:{opacity:1,y:0}
 
 className="text-gray-300 mt-6 text-sm md:text-lg"
 >
-I build modern and responsive web applications using
-HTML, CSS, JavaScript, Tailwind CSS, React, and Firebase for backend services.
-I also create dynamic websites using WordPress.
+I build modern, responsive, and user-friendly web applications using HTML, CSS, JavaScript, React.js, Tailwind CSS, Node.js, Express.js, and MongoDB. I enjoy creating clean, scalable, and high-performance web experiences while integrating REST APIs and implementing secure authentication.
 
-Currently learning Java and Data Structures
-to strengthen my problem-solving skills and become a full-stack developer.
+Currently, I am expanding my expertise in Java and Data Structures & Algorithms (DSA) to strengthen my problem-solving skills and grow as a proficient MERN Stack Developer.
+
 
 </motion.p>
 
@@ -166,7 +165,7 @@ to strengthen my problem-solving skills and become a full-stack developer.
 {/* -------- DOWNLOAD CV BUTTON (TOP FLY ANIMATION) -------- */}
 
 <motion.a
-href="/Portfolio_kashish/KashishResume.pdf"  //REpo name
+href="/Portfolio_kashish/KashishResumeFull.pdf"  //REpo name
 target="_blank"
 rel="noopener noreferrer"
 

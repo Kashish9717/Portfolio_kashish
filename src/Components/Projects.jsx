@@ -5,6 +5,12 @@ function Projects() {
 
   // ---------------- JAVASCRIPT PROJECTS ----------------
   const jsProjects = [
+
+      {
+    title: "RecruWeb Job Portal",
+    desc: "A full-stack MERN job portal with user authentication, job listings, resume uploads, and role-based dashboards for job seekers and recruiters.",
+    links: "https://recruweb-frontend-git-main-kashishsaxen97-projects.vercel.app/", // Replace with your deployed URL
+  },
     {
       title: "QR Code Scanner",
       desc: "Scan QR codes using camera with JavaScript.",

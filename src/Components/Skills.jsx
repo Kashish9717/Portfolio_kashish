@@ -6,20 +6,26 @@ import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 
 const technicalSkills = [
-  { name: "HTML", level: 90 },
-  { name: "CSS", level: 75 },
-  { name: "JavaScript", level: 70 },
-  { name: "React", level: 60 },
-  // { name: "Java", level: 50 },
-  // { name: "SQL", level: 60 },
-  { name: "Firebase", level: 60 }
+  { name: "HTML", level: 95 },
+  { name: "CSS", level: 90 },
+  { name: "JavaScript", level: 85 },
+  { name: "React.js", level: 85 },
+  { name: "Tailwind CSS", level: 90 },
+  { name: "Bootstrap", level: 85 },
+  { name: "Node.js", level: 75 },
+  { name: "Express.js", level: 75 },
+  { name: "MongoDB", level: 75 },
+  { name: "REST APIs", level: 80 },
+  { name: "Git & GitHub", level: 85 },
 ];
 
 const professionalSkills = [
-  { name: "Creativity", level: 90 },
-  { name: "Communication", level: 70 },
-  { name: "Problem Solving", level: 75 },
-  { name: "Team Work", level: 90 }
+  { name: "Problem Solving", level: 85 },
+  { name: "Communication", level: 85 },
+  { name: "Team Collaboration", level: 90 },
+  { name: "Quick Learning", level: 95 },
+  { name: "Time Management", level: 85 },
+  { name: "Adaptability", level: 90 },
 ];
 
 function Skills() {
