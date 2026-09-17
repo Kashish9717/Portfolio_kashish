@@ -25,36 +25,39 @@ function Footer() {
 
           {/* Github */}
           <a
-            href="https://github.com/"
+            href="https://github.com/kashish9717"
             target="_blank"
             rel="noreferrer"
             className="border border-cyan-400 p-2 rounded-full
             hover:bg-cyan-400 hover:text-black
-            transition duration-300 hover:shadow-[0_0_20px_pink]"
+            transition duration-300 hover:shadow-[0_0_20px_#22d3ee]"
+            title="GitHub"
           >
             <FaGithub size={18}/>
           </a>
 
           {/* LinkedIn */}
           <a
-            href="https://linkedin.com/"
+            href="https://linkedin.com/in/kashish-saxena9717"
             target="_blank"
             rel="noreferrer"
             className="border border-cyan-400 p-2 rounded-full
             hover:bg-cyan-400 hover:text-black
-            transition duration-300 hover:shadow-[0_0_20px_pink]"
+            transition duration-300 hover:shadow-[0_0_20px_#22d3ee]"
+            title="LinkedIn"
           >
             <FaLinkedinIn size={18}/>
           </a>
 
           {/* Instagram */}
           <a
-            href="https://instagram.com/"
+            href="https://instagram.com/___its_kashish"
             target="_blank"
             rel="noreferrer"
             className="border border-cyan-400 p-2 rounded-full
             hover:bg-cyan-400 hover:text-black
-            transition duration-300 hover:shadow-[0_0_20px_pink]"
+            transition duration-300 hover:shadow-[0_0_20px_#22d3ee]"
+            title="Instagram"
           >
             <FaInstagram size={18}/>
           </a>

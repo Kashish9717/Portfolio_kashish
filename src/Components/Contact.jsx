@@ -62,47 +62,45 @@ function Contact() {
 
 
           {/* ================= SOCIAL ICONS ================= */}
-
-          <div className="flex gap-5 mt-8">
-
+          <div className="flex gap-4 mt-8">
             {/* Github */}
             <motion.a
-              whileHover={{ scale: 1.2 }}
-              href="https://github.com/"
+              whileHover={{ scale: 1.15, y: -2 }}
+              href="https://github.com/kashish9717"
               target="_blank"
               rel="noreferrer"
-              className="border border-cyan-400 p-3 rounded-full
-              hover:bg-cyan-400 hover:text-black transition hover:shadow-[0_0_20px_cyan]"
+              className="border border-cyan-400/50 p-3 rounded-xl bg-slate-800/80
+              hover:bg-cyan-400 hover:text-black transition hover:shadow-[0_0_20px_rgba(34,211,238,0.5)]"
+              title="GitHub"
             >
               <FaGithub size={20}/>
             </motion.a>
 
             {/* LinkedIn */}
             <motion.a
-              whileHover={{ scale: 1.2 }}
-              href="https://linkedin.com/"
+              whileHover={{ scale: 1.15, y: -2 }}
+              href="https://linkedin.com/in/kashish-saxena9717"
               target="_blank"
               rel="noreferrer"
-              className="border border-cyan-400 p-3 rounded-full
-              hover:bg-cyan-400 hover:text-black transition hover:shadow-[0_0_20px_cyan]"
+              className="border border-cyan-400/50 p-3 rounded-xl bg-slate-800/80
+              hover:bg-cyan-400 hover:text-black transition hover:shadow-[0_0_20px_rgba(34,211,238,0.5)]"
+              title="LinkedIn"
             >
               <FaLinkedinIn size={20}/>
             </motion.a>
 
-    
-
             {/* Instagram */}
             <motion.a
-              whileHover={{ scale: 1.2 }}
-              href="https://instagram.com/"
+              whileHover={{ scale: 1.15, y: -2 }}
+              href="https://instagram.com/___its_kashish"
               target="_blank"
               rel="noreferrer"
-              className="border border-cyan-400 p-3 rounded-full
-              hover:bg-cyan-400 hover:text-black transition hover:shadow-[0_0_20px_cyan] "
+              className="border border-cyan-400/50 p-3 rounded-xl bg-slate-800/80
+              hover:bg-cyan-400 hover:text-black transition hover:shadow-[0_0_20px_rgba(34,211,238,0.5)]"
+              title="Instagram"
             >
               <FaInstagram size={20}/>
             </motion.a>
-
           </div>
 
         </motion.div>
