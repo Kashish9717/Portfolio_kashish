@@ -103,7 +103,7 @@ function About() {
             </motion.a>
 
             <motion.a
-              href="./KashishResumeFull.pdf"
+              href="./resume.html"
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-2.5 rounded-full font-medium text-white border border-cyan-400/60 hover:bg-cyan-950/40 hover:border-cyan-300 transition"
