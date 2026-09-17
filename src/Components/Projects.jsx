@@ -6,6 +6,13 @@ function Projects() {
   // ---------------- JAVASCRIPT & MERN PROJECTS ----------------
   const jsProjects = [
     {
+      title: "Pravixo Web",
+      tag: "Live Production",
+      featured: true,
+      desc: "A sleek, modern web platform featuring responsive dynamic layouts, rich UI interactions, and high-performance frontend architecture.",
+      links: "https://pravixo-web.vercel.app/",
+    },
+    {
       title: "RecruWeb Job Portal",
       tag: "MERN Stack",
       featured: true,
