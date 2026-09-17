@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import Profile from "../assets/Profile.jpg";
+import Profile from "../assets/profile.jpg";
 import { RiRobot2Line, RiCodeSSlashLine, RiSpeedUpLine } from "react-icons/ri";
 
 function About() {
