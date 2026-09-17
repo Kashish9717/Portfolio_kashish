@@ -6,6 +6,13 @@ function Projects() {
   // ---------------- JAVASCRIPT & MERN PROJECTS ----------------
   const jsProjects = [
     {
+      title: "Skribbl Clone (Multiplayer)",
+      tag: "Real-Time / Canvas",
+      featured: true,
+      desc: "Interactive real-time multiplayer drawing and guessing game built with dynamic canvas states, WebSockets, and seamless cross-browser responsiveness.",
+      links: "https://skribbl-clone-gamma.vercel.app/",
+    },
+    {
       title: "Pravixo Web",
       tag: "Live Production",
       featured: true,
