@@ -76,7 +76,7 @@ function Projects() {
       title: "My Album Multimedia Gallery",
       tag: "React + Tailwind",
       desc: "Dynamic photo and video gallery web app showcasing creative media with fluid responsive grid layouts.",
-      links: "https://kashish9717.github.io/MyAlbum/",
+      links: "https://myalbum-kashish.vercel.app/",
     },
     {
       title: "Notes Store Application",
