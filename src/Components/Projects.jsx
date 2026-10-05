@@ -17,14 +17,14 @@ function Projects() {
       tag: "Live Production",
       featured: true,
       desc: "A sleek, modern web platform featuring responsive dynamic layouts, rich UI interactions, and high-performance frontend architecture.",
-      links: "https://pravixo-web.vercel.app/",
+      links: "https://pravixo.com/",
     },
     {
       title: "RecruWeb Job Portal",
       tag: "MERN Stack",
       featured: true,
       desc: "Full-stack MERN job portal with intelligent role-based dashboards, secure JWT auth, resume processing, and recruiter management.",
-      links: "https://recruweb-frontend-git-main-kashishsaxen97-projects.vercel.app/",
+      links: "https://recruwebfrontend.vercel.app/",
     },
     {
       title: "Voice Assistant AI",
