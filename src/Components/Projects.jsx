@@ -61,12 +61,6 @@ function Projects() {
   // ---------------- REACT PROJECTS ----------------
   const reactProjects = [
     {
-      title: "Bookify Cloud Store",
-      tag: "React + Firebase",
-      desc: "Cloud book management web app powered by Firebase Firestore, real-time database updates, and state management.",
-      links: "https://kashish9717.github.io/Bookify/",
-    },
-    {
       title: "Interactive Quiz Hub",
       tag: "React State & Timers",
       desc: "Dynamic quiz platform with immediate scoring logic, animated transitions, and personalized result summaries.",
